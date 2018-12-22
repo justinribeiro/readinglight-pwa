@@ -28,9 +28,9 @@ $ yarn dist
 
 ### FAQ
 
-> 1. How accurate is this?
+> 1. Really, a screen light?
 
-When the dash is working on the Prius, it's pretty accurate from the looks of it. You're going to be constainted on any number of know problems with GPS (e.g., when the `Coordinates.accuracy` is not very good because of lock or assist issues).
+I can't read in the dark and I can never find the reading light. Build what I can't find I always say.
 
 > 2. Why didn't you use build tools/a framework/something I like.
 
