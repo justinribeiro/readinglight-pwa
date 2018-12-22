@@ -1,0 +1,14 @@
+{
+  "name": "ReadingLight",
+  "short_name": "Light",
+  "description": "A tiny no-frills screen light progressive web app based on the WakeLock API.",
+  "start_url": "/",
+  "theme_color": "#f1f1f1",
+  "background_color": "#f1f1f1",
+  "icons": [{
+    "src": "/images/readinglight.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "display": "standalone"
+}

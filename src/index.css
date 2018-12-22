@@ -1,0 +1,67 @@
+html {
+  --hue: 300,
+  --saturation: 50%,
+  --lightness: 50%;
+}
+
+body {
+  background: radial-gradient(ellipse at center, #ffffff 0%, hsl(var(--hue), var(--saturation), var(--lightness)) 100%);
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#controls {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10vh;
+  text-align: center;
+  display: flex;
+}
+
+#color {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 60px;
+  padding-right: 1em;
+}
+
+#lux {
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+#lux:focus {
+  outline: none;
+}
+
+#lux::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+#lux::-webkit-slider-thumb {
+  height: 50px;
+  width: 30px;
+  border-radius: 15px;
+  background: #ccc;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -20px;
+}
+
+#lux:focus::-webkit-slider-runnable-track {
+  background: #ffffff;
+}
