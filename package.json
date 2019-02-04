@@ -1,15 +1,15 @@
 {
-  "name": "speedometer",
-  "description": "Simple speedometer progressive web app based on Geolocation API and AmbientLightSensor API",
+  "name": "readinglight",
+  "description": "A tiny no-frills screen light progressive web app based on the WakeLock API.",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Justin Ribeiro <justin@justinribeiro.com>",
   "bugs": {
-    "url": "https://github.com/justinribeiro/speedometer-pwa/issues"
+    "url": "https://github.com/justinribeiro/readinglight-pwa/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:justinribeiro/speedometer-pwa.git"
+    "url": "git@github.com:justinribeiro/readinglight-pwa.git"
   },
   "license": "MIT",
   "scripts": {
